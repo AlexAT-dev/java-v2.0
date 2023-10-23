@@ -1,6 +1,5 @@
-import java.lang.*;
-
 public class Task1 {
+
   private double pri_X;
   private double pri_Y;
 
@@ -10,10 +9,18 @@ public class Task1 {
   }
 
   public void printConsoleTask() {
-    System.out
-        .println("cos " + Double.toString(this.pri_X) + "° = " + Double.toString(Math.cos(Math.toRadians(this.pri_X))));
-    System.out
-        .println("sin " + Double.toString(this.pri_Y) + "° = " + Double.toString(Math.sin(Math.toRadians(this.pri_Y))));
+    System.out.println(
+      "cos " +
+      Double.toString(this.pri_X) +
+      "° = " +
+      Double.toString(Math.cos(Math.toRadians(this.pri_X)))
+    );
+    System.out.println(
+      "sin " +
+      Double.toString(this.pri_Y) +
+      "° = " +
+      Double.toString(Math.sin(Math.toRadians(this.pri_Y)))
+    );
   }
 
   public static void main(String[] args) {
